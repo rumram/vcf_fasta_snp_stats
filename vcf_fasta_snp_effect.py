@@ -167,7 +167,7 @@ def get_snp_descriptor(list_of_dicts_obj):
         ]
 
     snp_table_df = pd.DataFrame(snp_table, columns=col_names)
-    snp_table_df.to_csv(str(output_prefix) + ".csv", sep='\t', index=False)
+    snp_table_df.to_csv(str(output_prefix) + ".csv", sep=',', index=False)
 
 
 get_snp_descriptor(list_of_dicts)
