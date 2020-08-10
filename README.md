@@ -10,9 +10,14 @@ In order to run script provide path to VCF and FASTA file. Also provide output f
 vcf_fasta_snp_effect.py path/to/vcf/file.vcf path/to/fasta/file.fa output_prefix
 ```
 
+### Example:
+```
+vcf_fasta_snp_effect.py /home/rumram/file.vcf /home/rumram/file.fa test
+```
+
 The above command will result with two files:
-- FASTA file containing only sequences were at least one SNP was detected,
-- summary table in csv file format.
+- FASTA file containing only sequences were at least one SNP was detected (test.fa),
+- summary table in csv file format (test.csv).
 
 
 | SEQ_NAME | LEN |	REF |	REF_COUNT |	ALT |	ALT_COUNT |	REF_CODON |	ALT_CODON |	POS |	POS_IN_CODON |	REF_AA |	ALT_AA |	SNP_TYPE |
