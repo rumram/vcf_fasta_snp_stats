@@ -28,7 +28,7 @@ The above command results with two files:
 | Sequence2 |	402 |	C |	89 |	G |	75 |	CAA |	GAA |	331 |	1 |	Q |	E |	N |
 | Sequence3 |	771 |	T |	28 |	C |	22 |	GAT |	GAC |	747 |	3 |	D |	D |	S |
 | Sequence4 |	588 |	A |	10 |	G |	6 |	ATT |	GTT |	262 |	1 |	I |	V |	N |
-| Sequence4 |	1806 |	C |	227 |	T |	60 |	CGC |	TGC |	529 |	1 |	R |	C |	N |
+| Sequence4 |	588 |	C |	227 |	T |	60 |	CGC |	TGC |	529 |	1 |	R |	C |	N |
 | Sequence5 |	321 |	T |	108 |	C |	87 |	TCT |	TCC |	75 |	3 |	S |	S |	S |
 
 
