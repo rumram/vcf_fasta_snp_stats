@@ -22,3 +22,18 @@ Sequence4	588	A	10	G	6	ATT	GTT	262	1	I	V	N
 Sequence5	1806	C	227	T	60	CGC	TGC	529	1	R	C	N
 Sequence6	321	T	108	C	87	TCT	TCC	75	3	S	S	S
 ```
+
+### Headers description:
+- 'SequenceName': name of FASTA sequence,
+- 'LEN': length of nucleotide sequence,
+- 'REF': reference nucleotide,
+- 'REF_COUNT': reference nucleotide counts,
+- 'ALT': alternative nucleotide,
+- 'ALT_COUNT': alternative nucleotide counts,
+- 'REF_CODON': reference codon,
+- 'ALT_CODON': alternative codon,
+- 'POS': location of SNP within sequence,
+- 'POS_IN_CODON': position of SNP within codon (1-3),
+- 'REF_AA': reference amino acid,
+- 'ALT_AA': amino acid change as a result of alternative nucleotide occurrence,
+- 'SNP_TYPE': indicates if SNP is synonymous (S) or non-synonymous (N).
