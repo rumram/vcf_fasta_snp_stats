@@ -1,6 +1,9 @@
 # vcf_fasta_snp_stats
 Get synonymous, non-synonymous SNPs and track nucleotide and amino acid sequences modifications given VCF and corresponding FASTA files.
 
+## Prerequisities
+- pandas python library
+
 ## Usage
 In order to run script provide path to VCF and FASTA file. Also provide output files prefix as a third argument.
 ```
