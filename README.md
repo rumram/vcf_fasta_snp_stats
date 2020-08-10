@@ -16,7 +16,7 @@ vcf_fasta_snp_effect.py path/to/vcf/file.vcf path/to/fasta/file.fa output_prefix
 vcf_fasta_snp_effect.py /home/rumram/file.vcf /home/rumram/file.fa test
 ```
 
-The above command will result with two files:
+The above command results with two files:
 - FASTA file containing only sequences were at least one SNP was detected (test.fa),
 - summary table in csv file format (test.csv).
 
