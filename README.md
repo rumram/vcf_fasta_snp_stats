@@ -19,7 +19,7 @@ The above command will result with two files:
 - FASTA file containing only sequences were at least one SNP was detected (test.fa),
 - summary table in csv file format (test.csv).
 
-
+### summary table header:
 | SEQ_NAME | LEN |	REF |	REF_COUNT |	ALT |	ALT_COUNT |	REF_CODON |	ALT_CODON |	POS |	POS_IN_CODON |	REF_AA |	ALT_AA |	SNP_TYPE |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | Sequence1 |	957 |	A |	13 |	T |	10 |	CCA |	CCT |	276 |	3 |	P |	P |	S |
